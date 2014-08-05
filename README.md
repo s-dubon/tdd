@@ -1,7 +1,9 @@
 Test Driven Development
 =======================
 
-Goal of this project is for the team to see the default structure for a project :
+Goal of this project is to demonstrate test driven development.
+
+First of all, we need to structure the project :
 
 - doc : where all the documentation goes
 - test : where all the tests go
