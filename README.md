@@ -17,8 +17,8 @@ My main reflection upon this is we should strive to :
 3) implement the code to validate your test
 
 Somehow #1 is basically part of specifying your work
-#2 is examples of what #1 defines
-#3 is implementing the real deal.
+and #2 is examples of what #1 defines
+and #3 is implementing the real deal.
 
 If change is to be done on #2, should first do it on #1 so that everything cascades into place.
 
