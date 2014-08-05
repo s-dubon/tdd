@@ -1,0 +1,31 @@
+PermissionLibrary : Object {
+functions:
+    init : constructor ( scope : String ) : should return a Permission object with scope property set to input parameter
+}
+
+Permission : Object {
+properties:
+    scope
+functions:
+    defineRole : function ( roleName ) : should return Role Object
+}
+
+Role : Object {
+properties:
+    name : String, role name
+    actions : [String]
+functions:
+    addAction:function( actionName:String )
+    removeAction:function( actionName:String )
+}
+
+Sample code
+
+var myPermission = Permission.init("Test Automation");
+console.log("permission' scope : "+myPermission.scope);
+
+var role = myPermission.defineRole("administrator");
+console.log("role : "+role.name);
+role.addAction("read");
+role.addAction("write");
+role.addAction("delete");

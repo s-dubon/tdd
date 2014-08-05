@@ -1,0 +1,2 @@
+var right = new right();
+var sum = right.sum(1, 2);
